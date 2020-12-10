@@ -1,1 +1,67 @@
 /* Add CSS styling here */
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: none;
+    
+}
+
+.container{
+    border: 1px solid black    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav > button {
+    border: 1px solid black ;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+
+.intro{
+    text-align: center;
+    padding: 0% 5%;
+}
+
+.websitePreview{
+    border: 1px solid red;
+    height: 30vh;
+    
+}
+
+.sites{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.sites > div{
+    border:  1px solid blue;
+    height: 30vh;
+    width: 18%;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    height: 10vh;
+}
