@@ -3,30 +3,54 @@ body{
     margin: 0 auto;
     padding: 0;
     background-color: none;
+    font: 62.5%;
     
 }
 
-.container{
-    border: 1px solid black    
-}
 
-h1{
+
+.name{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    font-size: 2.5em;
+    font-family:'Inknut Antiqua', serif;
+    margin: 0;
+    color: #990000;
 }
 
 nav{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end; 
+    padding: 0%;
+
+}
+
+.nav div{
+background-color: noe;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 60%;
+  
 }
 
 nav > button {
-    border: 1px solid black ;
+   border: none;
+    border-radius: 5px;
+    font-family: 'Press Start 2P', cursive;
+    margin: 1% .2%;
+    height:4vh;
+    width: 5%;
+    font-size: .5vw;
+    text-shadow: 0px 1px 2px #ffe6e6;
+    color: #990000;
+    background-color: #ff6666;
 }
 
 h2{
     display: flex;
     justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    color: #990000;
 }
 
 section{
@@ -40,28 +64,58 @@ section{
     padding: 0% 5%;
 }
 
-.websitePreview{
-    border: 1px solid red;
-    height: 30vh;
+.projects{
+    display: flex;
+    flex-direction: column;
+
+   
+}
     
+
+.websitePreview{
+    background-color: coral;
+    height: 40vh;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1%;
 }
 
 .sites{
-    display: flex;
-    justify-content: space-evenly;
-
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin-bottom: 1%;
 
 }
 
 .sites > div{
-    border:  1px solid blue;
-    height: 30vh;
-    width: 18%;
+    margin-bottom: 1%;
+    height: 25vh;
+    width: 30%;
+
+
 }
 
 .contact{
     display: flex;
     justify-content: center;
-    background-color: yellow;
-    height: 10vh;
+    height: 8vh;
+}
+
+.contact button{
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 5px;
+    height: 5vh;    
+    margin-top: .5%;
+    width: 6%;
+    font-size: .5vw;
+    text-shadow: 0px 1px 2px #ffe6e6;
+    color: #990000;
+    background-color: #ff6666;
+}
+
+button:hover{
+    color: yellow;
+    transition-duration: .5s;
 }
