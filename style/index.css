@@ -109,8 +109,8 @@ margin-bottom: 1%;
     border-radius: 5px;
     height: 5vh;    
     margin-top: .5%;
-    width: 15%;
-    font-size: .8vw;
+    width: 20%;
+    font-size: 1vw;
     text-shadow: 0px 1px 2px #ffe6e6;
     color: #990000;
     background-color: #ff6666;
@@ -152,12 +152,31 @@ button:hover{
     }
 
     .contact button{
-        width: 20%;
-        font-size: .6em;
+        width: 60%;
+        font-size: 1.8vw;
     }
 
 }
 
 @media (max-width: 500px){
-    
+
+    nav > button{
+        width: 50%;
+        font-size: 3vw;
+    }
+
+    .websitePreview{
+        width: 90%;
+        height: 30vh;
+    }
+
+    .sites > div{
+        height: 15vh;
+        width: 45%;
+    }
+
+    .contact button{
+        width: 60%;
+    }
+
 }
